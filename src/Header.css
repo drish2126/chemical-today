@@ -1,0 +1,53 @@
+.header {
+    background-color: black;
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 20px;
+  }
+  .header-logo {
+    width: 100px; 
+    height: auto; 
+    max-width: 100%; 
+    margin-right: 20px;
+  }
+  
+  .header-buttons{
+    display: flex;
+    align-items: center; /* Vertically center the buttons */
+    gap: 10px; /* Space between buttons */
+    margin-right: auto;
+  }
+
+  .header-button{
+    padding: 5px 10px; /* Adjust padding for the button */
+    background-color: white; /* Button background color */
+    color: black; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: 0.5px solid black;
+    border-radius: 0;
+    margin-right: 0;
+  }
+  .header-search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px; /* Space between buttons and search icon */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  /* Style for the SVG inside header-search-icon */
+  .header-search-icon svg {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    stroke: white; /* Change stroke color to white */
+    fill: none; /* Remove fill if needed */
+  }

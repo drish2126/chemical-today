@@ -1,0 +1,91 @@
+.article {
+    width: 65%;
+    background-color: white;
+    padding: 20px;
+  }
+  .article-button{
+    padding: 5px 10px; /* Adjust padding for the button */
+    background-color: rgb(229, 32, 32); /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: none;
+    border-radius: 0;
+  }
+  
+  .article-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 800;
+    line-height: 1.4;
+  }
+  
+  .article-meta {
+    color: black;
+    font-size: 0.9rem;
+    margin-bottom: 20px; /* Space below the box */
+    border: 1px solid black; /* Black border around the box */
+    padding: 10px; /* Space inside the box */
+    border-radius: 0; /* Sharp corners (no rounding) */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center-align items */
+    justify-content: space-between; /* Space between items */
+    position: relative; /* Relative positioning for alignment */
+}
+
+.author {
+    margin-right: 10px;
+    font-weight: bold; /* Space between author and date */
+}
+
+.article-date {
+    font-weight: bold; /* Optional: Bold date for emphasis */
+}
+
+.share-container {
+    display: flex; /* Use flexbox to arrange Share text and circles */
+    align-items: center; /* Center-align items vertically */
+}
+
+.share-text {
+    margin-right: 10px; /* Space between Share text and circles */
+    font-weight: bold; /* Optional: Bold text for emphasis */
+}
+
+.circles {
+    display: flex; /* Arrange circles horizontally */
+}
+
+.circle {
+    width: 20px; /* Size of the circle */
+    height: 20px; /* Size of the circle */
+    border-radius: 50%; /* Make the element a circle */
+    background-color: black; /* Circle color */
+    color: white; /* Text color inside the circle */
+    display: flex; /* Center content inside the circle */
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px; /* Space between circles */
+    font-size: 0.8rem; /* Adjust font size as needed */
+}
+.black-box {
+  background-color: black; /* Black background */
+  color: white; /* White text color for contrast */
+  padding: 20px; /* Space inside the box */
+  border-radius: 0; /* Optional: Rounded corners for the box */
+  margin: 20px 0; /* Space around the box */
+  width: 100%; /* Full width of the container */
+  box-sizing: border-box; /* Ensure padding is included in width */
+  min-height: 500px;
+}
+.content{
+  font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.4;
+}
+.article-content {
+  font-size: 1rem;
+  line-height: 1.5;
+  white-space: pre-line; /* Ensure line breaks are rendered */
+}
+  
